@@ -70,6 +70,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -95,8 +96,8 @@
                     android:layout_height="0dp"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="8dp"
@@ -117,9 +118,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Absen"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -131,8 +132,8 @@
                     android:layout_height="0dp"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="8dp"
@@ -153,9 +154,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Pengumpulan Tugas"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -188,9 +189,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Materi"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -223,9 +224,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Makanan"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -258,9 +259,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Makanan"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -293,9 +294,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Quiz"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -327,9 +328,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Makanan"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -361,9 +362,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="@color/black"
                             android:text="Logout"
                             android:textAlignment="center"
+                            android:textColor="@color/black"
                             android:textStyle="bold" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -372,5 +373,57 @@
             </GridLayout>
         </androidx.appcompat.widget.LinearLayoutCompat>
 
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_food"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="375dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="57dp"
+            android:src="@drawable/user"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="100%"
+            android:textStyle="bold"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#807F7F"
+            android:text="Penilaian"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
