@@ -3,23 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Perkuliahan/SMSTR5/proyek 2/proyek_lms/LMS/app/src/main/res/layout/activity_home.xml" value="0.12708333333333333" />
-        <entry key="..\:/Perkuliahan/SMSTR5/proyek 2/proyek_lms/LMS/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
-        <entry key="..\:/Perkuliahan/SMSTR5/proyek 2/proyek_lms/LMS/app/src/main/res/layout/activity_profile.xml" value="0.4" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/drawable/bg_buttonlogin.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/drawable/bg_gradasi.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/drawable/bg_main.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/drawable/form.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/drawable/user.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/layout/activity_home.xml" value="0.264" />
-        <entry key="..\:/Users/USER/OneDrive/Documents/D4 smt 5/PROYEK 2/lms/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Perkuliahan/SMSTR5/proyek 2/proyek_lms/LMS/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_buttonlogin.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_main.xml" value="0.1125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_topnav.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/key.xml" value="0.2203125" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_assignment_task.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_assignment_task_detail.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance_check.xml" value="0.22" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance_detail.xml" value="0.21" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_course.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_course_material.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_course_material_detail.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_grading_assignment.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_home_lecture.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_task.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/fragment_add_course_dialog.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/fragment_add_course_material_dialog.xml" value="0.22" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/fragment_add_task_dialog.xml" value="0.1213768115942029" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/item_assignment_task.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/item_attendance.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/item_course.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/item_course_material.xml" value="0.17391304347826086" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/item_task.xml" value="0.17391304347826086" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.aplas.lms">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LMS">
         <activity
-            android:name=".ProfileActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Home"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +21,48 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.CourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeLectureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GradingAssignmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AttendanceCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CourseMaterialDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AttendanceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CourseMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AssignmentTaskDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AssignmentTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
