@@ -14,6 +14,7 @@ public class Constants {
     public static final String CREATE_ATTENDANCE_URL = "attendances";
     public static final String SHOW_ATTENDANCE_URL = "attendances/{id}";
     public static final String GET_ATTENDANCE_BY_ID_COURSE_URL = "attendances/course/{id}";
+    public static final String IS_ALREADY_ATTENDANCE_URL = "attendances/check";
 
     // Courses
 

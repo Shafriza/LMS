@@ -3,6 +3,7 @@ package org.aplas.lms.models;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Date;
+import java.util.List;
 
 public class CourseModel {
     @SerializedName("id")
@@ -70,4 +71,6 @@ public class CourseModel {
     public void setUpdated_at(Date updated_at) {
         this.updated_at = updated_at;
     }
+
 }
+

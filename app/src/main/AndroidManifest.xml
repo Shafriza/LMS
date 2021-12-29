@@ -22,43 +22,43 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.CourseActivity"
+            android:name=".activities.lectures.LectureCourseActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.HomeLectureActivity"
+            android:name=".activities.lectures.LectureHomeActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.GradingAssignmentActivity"
+            android:name=".activities.lectures.LectureGradingAssignmentActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.TaskActivity"
+            android:name=".activities.students.StudentTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AttendanceCheckActivity"
+            android:name=".activities.students.StudentAttendanceCheckActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.CourseMaterialDetailActivity"
+            android:name=".activities.students.StudentCourseMaterialDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AttendanceDetailActivity"
+            android:name=".activities.lectures.LectureAttendanceDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.CourseMaterialActivity"
+            android:name=".activities.students.StudentCourseMaterialActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AttendanceActivity"
+            android:name=".activities.students.StudentAttendanceActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AssignmentTaskDetailActivity"
+            android:name=".activities.students.StudentAssignmentTaskDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AssignmentTaskActivity"
+            android:name=".activities.students.StudentAssignmentTaskActivity"
             android:exported="false" />
         <activity
             android:name=".activities.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.HomeActivity"
+            android:name=".activities.students.StudentHomeActivity"
             android:exported="false" />
         <activity
             android:name=".activities.MainActivity"

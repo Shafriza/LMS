@@ -16,7 +16,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import org.aplas.lms.R;
-import org.aplas.lms.activities.CourseActivity;
+import org.aplas.lms.activities.lectures.LectureCourseActivity;
 import org.aplas.lms.configs.ApiUtils;
 import org.aplas.lms.configs.SessionManager;
 import org.aplas.lms.interfaces.ApiService;
@@ -123,7 +123,7 @@ public class AddCourseDialog extends DialogFragment {
                 }else{
                     Toast.makeText(getActivity().getApplicationContext(), "Mata kuliah add fail!", Toast.LENGTH_SHORT).show();
                 }
-                Intent intent = new Intent(getView().getContext(), CourseActivity.class);
+                Intent intent = new Intent(getView().getContext(), LectureCourseActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
                 getActivity().finish();

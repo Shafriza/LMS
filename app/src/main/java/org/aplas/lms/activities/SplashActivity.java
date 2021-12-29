@@ -13,12 +13,10 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import org.aplas.lms.R;
+import org.aplas.lms.activities.lectures.LectureHomeActivity;
+import org.aplas.lms.activities.students.StudentHomeActivity;
 import org.aplas.lms.configs.SessionManager;
 import org.aplas.lms.interfaces.ApiService;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -51,13 +49,13 @@ public class SplashActivity extends AppCompatActivity {
             Toast.makeText(SplashActivity.this, "Welcome back !", Toast.LENGTH_SHORT).show();
             if(sessionManager.fetchUserRole().equalsIgnoreCase("1")){
                     loading.setVisibility(View.GONE);
-                    Intent HomeLectureActivity = new Intent(getApplicationContext(), HomeLectureActivity.class);
+                    Intent HomeLectureActivity = new Intent(getApplicationContext(), LectureHomeActivity.class);
                     HomeLectureActivity.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(HomeLectureActivity);
                     finish();
             }else if(sessionManager.fetchUserRole().equalsIgnoreCase("2")){
                     loading.setVisibility(View.GONE);
-                    Intent HomeActivity = new Intent(getApplicationContext(), HomeActivity.class);
+                    Intent HomeActivity = new Intent(getApplicationContext(), StudentHomeActivity.class);
                     HomeActivity.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(HomeActivity);
                     finish();

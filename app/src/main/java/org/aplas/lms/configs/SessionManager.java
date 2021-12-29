@@ -18,17 +18,9 @@ public class SessionManager {
     // Shared pref mode
     int PRIVATE_MODE = 0;
 
-    // All Shared Preferences Keys
-    private static final String IS_LOGIN = "IsLoggedIn";
-
-    // User name (make variable public to access from outside)
-    public static final String KEY_NAME = "name";
-
-    // Email address (make variable public to access from outside)
-    public static final String KEY_EMAIL = "email";
-
     public static final String USER_TOKEN = "user_token";
     public static final String USER_ROLE = "user_role";
+    public static final String USER_EMAIL = "user_email";
 
     // Constructor
     public SessionManager(Context context){
@@ -59,6 +51,18 @@ public class SessionManager {
 
     public final String fetchUserRole() {
         String token = pref.getString(USER_ROLE, null);
+        return token;
+    }
+
+    // Auth Email
+    public void saveAuthEmail(String email) {
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putString(USER_EMAIL, email);
+        editor.apply();
+    }
+
+    public final String fetchAuthEmail() {
+        String token = pref.getString(USER_EMAIL, null);
         return token;
     }
 

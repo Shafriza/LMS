@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Perkuliahan/SMSTR5/proyek 2/proyek_lms/LMS/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/apk/app/src/main/res/layout/activity_attendance_check.xml" value="0.1480978260869565" />
+        <entry key="..\:/RepositoriesAndroid/LMS/apk/app/src/main/res/layout/activity_lecture_attendance_detail.xml" value="0.1480978260869565" />
+        <entry key="..\:/RepositoriesAndroid/LMS/apk/app/src/main/res/layout/activity_student_assignment_task.xml" value="0.1480978260869565" />
+        <entry key="..\:/RepositoriesAndroid/LMS/apk/app/src/main/res/layout/activity_student_attendance_check.xml" value="0.22" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_buttonlogin.xml" value="0.2203125" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_main.xml" value="0.1125" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/bg_topnav.xml" value="0.2203125" />
@@ -13,7 +16,7 @@
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/drawable/key.xml" value="0.2203125" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_assignment_task.xml" value="0.25" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_assignment_task_detail.xml" value="0.25" />
-        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance.xml" value="0.25" />
+        <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance.xml" value="0.16" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance_check.xml" value="0.22" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_attendance_detail.xml" value="0.21" />
         <entry key="..\:/RepositoriesAndroid/LMS/app/src/main/res/layout/activity_course.xml" value="0.17391304347826086" />

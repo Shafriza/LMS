@@ -1,14 +1,11 @@
 package org.aplas.lms.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -16,6 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.aplas.lms.R;
+import org.aplas.lms.activities.lectures.LectureHomeActivity;
+import org.aplas.lms.activities.students.StudentHomeActivity;
 import org.aplas.lms.configs.ApiUtils;
 import org.aplas.lms.configs.SessionManager;
 import org.aplas.lms.interfaces.ApiService;
@@ -87,15 +86,16 @@ public class MainActivity extends AppCompatActivity {
                 if(response.code() == 201 && loginResponse.getStatus()){
                     sessionManager.saveAuthToken(loginResponse.getData().getToken());
                     sessionManager.saveUserRole(String.valueOf(loginResponse.getData().getUser().getRole()));
+                    sessionManager.saveAuthEmail(String.valueOf(loginResponse.getData().getUser().getEmail()));
                     Toast.makeText(MainActivity.this, "User login successfully!", Toast.LENGTH_SHORT).show();
 
                     if(loginResponse.getData().getUser().getRole() == 1){
-                            Intent DashboardSellerActivity = new Intent(getApplicationContext(), HomeLectureActivity.class);
+                            Intent DashboardSellerActivity = new Intent(getApplicationContext(), LectureHomeActivity.class);
                             DashboardSellerActivity.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             startActivity(DashboardSellerActivity);
                             finish();
                     }else if(loginResponse.getData().getUser().getRole() == 2){
-                            Intent DashboardBuyerActivity = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent DashboardBuyerActivity = new Intent(getApplicationContext(), StudentHomeActivity.class);
                             DashboardBuyerActivity.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             startActivity(DashboardBuyerActivity);
                             finish();
